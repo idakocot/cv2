@@ -1,0 +1,35 @@
+
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #d9adad;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.message {
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.item {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+}
+
+.item > label {
+    width: 150px;
+}
+
+.item > input {
+    width: 150px;
+}

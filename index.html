@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact me</title>
+    <link href="contact_me_css.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>My contact details</h1>
+    <p>My fictional adress</p>
+    <p>505961000</p>
+    <p>myemail@gmail.com</p>
+    <hr>
+    <form
+      class="register"
+      action="mailto:ida.kocot@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <div class="item">
+        <label>Name:</label>
+        <input type="text" name="yourName" />
+      </div>
+
+      <div class="item">
+        <label>E-mail:</label>
+        <input type="email" name="yourName" />
+      </div>
+
+      <div class="item">
+        <label>Date of birth:</label>
+        <input type="date" name="yourDate" />
+      </div>
+
+      <div class="item">
+        <label>Password:</label>
+        <input type="password" />
+      </div>
+      <button type="submit" class="signupbtn">Sign Up</button>
+      <hr>
+      <div class="message">
+        <label>Your Message:</label>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      </div>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
